@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es2020",
+    "module": "esnext",
+    "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "typeRoots": ["./node_modules/@types"],
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

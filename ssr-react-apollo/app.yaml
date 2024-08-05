@@ -1,0 +1,8 @@
+runtime: nodejs14
+
+env_variables:
+  NODE_ENV: "production"
+
+handlers:
+  - url: /.*
+    script: auto

@@ -1,0 +1,15 @@
+body {
+  background: url("../assets/body-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #313131;
+  color: #000305;
+  font-size: 13px;
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  line-height: 13px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}

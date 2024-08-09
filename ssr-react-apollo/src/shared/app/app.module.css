@@ -1,0 +1,34 @@
+.body {
+  clear: both;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.header {
+  height: 3em;
+  width: 100%;
+  float: left;
+  align-content: center;
+  text-align: center;
+}
+
+.content {
+  height: 90%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.footer {
+  height: 3em;
+  width: 100%;
+  float: left;
+  font-size: 2em;
+  font-weight: bold;
+  align-content: center;
+  text-align: center;
+  padding-left: 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
